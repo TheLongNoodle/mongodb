@@ -1,0 +1,22 @@
+{
+  "printWidth": 120,
+  "tabWidth": 4,
+  "singleQuote": false,
+  "semi": true,
+  "trailingComma": "es5",
+  "endOfLine": "lf",
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "embeddedLanguageFormatting": "auto",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "quoteProps": "as-needed",
+  "useTabs": false,
+
+  "overrides": [
+    { "files": "*.json", "options": { "tabWidth": 2 } },
+    { "files": "*.yml", "options": { "tabWidth": 2 } },
+    { "files": "*.yaml", "options": { "tabWidth": 2 } },
+    { "files": "*.*rc", "options": { "tabWidth": 2 } }
+  ]
+}
